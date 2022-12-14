@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+   
+    <head>
+        <meta charset="UTF-8">
+        <title> Ilona Le </title>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <link rel="icon" href="img/favicon.ico">  
+        <link rel="stylesheet" href="font/css/fontello.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lato&family=Merriweather:ital@0;1&family=Montserrat:wght@700&family=Nerko+One&family=Sacramento&family=Srisakdi:wght@400;700&family=Unbounded&display=swap" rel="stylesheet"><script src="jquery.scrollTo.min.js"></script>
+		
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		
+		<script src="jquery.scrollTo.min.js"></script>
+		<script>
+			jQuery(function($)
+			{
+			$.scrollTo(0);
+			$('#link1').click(function(){$.scrollTo($('#omnie'), 500);});
+			$('#link2').click(function(){$.scrollTo($('#doswiadczenie'), 500);});
+			$('#link3').click(function(){$.scrollTo($('#wyksztalcenie'), 500);});
+			$('#link4').click(function(){$.scrollTo($('#zainteresowania'), 1000);});
+			$('.scrollup').click(function(){$.scrollTo($('body'), 500);});
+			}
+			);
+			$(window).scroll(function()
+			{
+					if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+					else $('.scrollup').fadeOut();
+			}
+			
+			
+			);
+		</script>
+    </head>
+
+    <body>
+       
+        <div id="top-container">
+            <a href="#" class="scrollup"></a>     
+            <div class="top">
+                <h2>Dzień dobry! :) <br>
+                 Nazywam się <span style="color:#006622 ">Ilona Lelek</span>.<br> 
+                 Biorę udział<br>
+                 w<br>   <a style="text-decoration: none" href="https://przyszlyprogramista.pl/"><img src="img/pp.png" alt="PP logo" style="width: 50px; position: relative; top: 20px; right:5px;"></a><span style="color:#808080; font-size: 1.1rem; font-family: 'Lato';">Projekcie PRZYSZŁY PROGRAMISTA.</span></h2> 
+                 <img class="left-plant"  src="img/plant.png"  alt="roślina">
+            </div> 
+            <div class="top">
+                <div id="door2"> 
+                <img  src="img/opened.png" alt="Drzwi otwarte">
+                <ul class="menu">
+                <li><a id="link1" href="#">0 mnie</a></li>
+                <li><a id="link2" href="#">Doświadczenie</a></li>
+                <li><a id="link3" href="#">Wykształcenie</a></li>
+                <li><a id="link4" href="#">Zainteresowania</a></li>
+                </ul>
+                </div>
+            </div>
+            <div class="top">
+            <img class="right-plant" src="img/plant.png"  alt="roślina">
+            </div>
+        </div>   
+
+            <div class="middle-container">
+                <div id="ilona"><img src="img/ilona.png" alt="ilona-img"> </div> 
+                <h4 id="omnie">O mnie</h4>
+                <div class="text">
+                <p>Zdecydowanie jestem typem zadaniowca i lubię wyzwania. </p> 
+                    <p style="text-align: center">I cóż mogę o sobie napisać <span style="color:red; font-size: 2rem;">	
+                      &#8667;</span><img style="width: 100px; margin:0;" alt="robot" src="img/robo.png"> <span style="color: red; font-size:2rem;">&#8666;</span> czasami tak się widzę :)</p>
+                        <p> W&#160;końcu duża ilość zadań, wymaga bardzo dobrej organizacji. Mocno angażuję się w&#160;każdą sferę życia, zarówno w&#160;pracę,&#160;jak i&#160;w życie rodzinne. Dobra jestem w&#160;organizowaniu rzeczy, poniekąd zapewne dlatego, że uwielbiam związane z&#160;tym planowanie i&#160;realizację założonego planu. Ponadto jestem amatorką wypieków oraz aktywnego,&#160;bądź kreatywnego spędzania czasu ;)</p>
+                </div>
+                <hr>
+                <h4 id="doswiadczenie">Doświadczenie</h4>
+                <div class="text">
+                <p> 
+                Na tę chwilę od 2016 roku pracuję w <a href="https://sescom.eu/"><img id="sescom" src="img/sescom.png" alt="sescom logo"></a> jako Kierownik Kontraktu OBUD i&#160;chociaż moje aktualne stanowisko nie jest bezpośrednio związane z&#160;programowaniem to przebieg mojej kariery świadczy o moim zangażowaniu i&#160;dążeniu do rozwoju. Szybko uczę się nowych rzeczy i lubię wyzwania. Po więcej informacji zapraszam do mojego profilu na </p> 
+                <a href="https://www.linkedin.com/in/ilona-lelek-58106ba3/"><img style="width: 100px; position: relative; left: 40%;" src="img/linkedin.png" alt="logo linkedin"></a>
+                <p>W projekcie Przyszły Programista uczestniczę od lutego 2020. Do tej pory zaznajomiłam się dosyć dobrze z C++, html i CSS.</p> 
+                </div>
+                <hr>
+                <h4 id="wyksztalcenie">Wykształcenie</h4> 
+                <div class="text">
+                <table>
+                    <tr>
+                        <th>lata</th><th>uczelnia</th><th>tytuł</th>
+                    </tr>
+                    <tr>
+                        <td>2009-2013</td><td>Politechnika Gdańska</td><td>inżynier Biotechnologii</td>
+                    </tr>
+                    <tr>
+                        <td>2013-2014</td><td>Politechnika Gdańska</td><td>magister Biotechnologii Molekularnej</td>
+                    </tr>
+                </table>
+                </div>
+                <hr>
+                <h4 id="zainteresowania">Zainteresowania</h4>
+                <div class="text">
+                <ul class="hobby">
+                    <li><a href="wypieki.html">&#128151; Wypieki</a></li>
+                    <li><a href="gory.html">&#128151; Góry</a></li>
+                    <li><a href="https://nakanapie.pl/Lutha"> &#128151; Książki, szczególnie z działu fantastyki i kryminałów medycznych oraz z&#160;serii 'Prawdziwe historie' (Cathy Glass)</a></li>
+                </ul> 
+                </div>
+            </div>
+          <div class="bottom-container">
+                <div class="socials">
+                   <a href="https://www.facebook.com/ilona.kulinska.5"> <i class="icon-facebook-rect"></i></a>
+                </div>
+                <div class="socials">
+                    <a href="https://github.com/IlonaAK"><i class="icon-github"></i> </a>
+                </div>
+                <div class="socials"> 
+                     <i class="icon-gplus"></i>
+                </div>
+                <div style="clear: both;"></div>
+                <p style="color:#006622; padding-left: 40px; font-size:1rem;">© Ilona Lelek</p>
+          </div>
+    </body>
+</html>

@@ -1,0 +1,284 @@
+body
+{   color: white;
+    margin: 0;
+}
+
+.bottom-container
+{
+    background-color: #e6fff5;
+    height: 50px;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+/*Top images from Pixabay -> OpenClipart-Vectors  */
+
+#door
+{
+    width: 400px;
+    height: 500px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#door2
+{
+    width: 400px;
+    height: 500px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#door a
+{
+    opacity: 0.8;
+    cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAfFJREFUWEftlrFLG3EUxz8vaAJWLKQ62amLS7c4263/QksFxw5SpByog4N1KZTSBAKdugh2KM5OgogIBYcgHbLoWHCyDtoU1Dav3CW55C653C/J7+LibXe8e5/v+/7e+/1+wpAfLXEFHEuOORctw+TX4eMe84BDcZgbmoAQvFH3zlAERMD/iMODxAV0gyfeAxHwhv1PxaGcmAMx8KaIJKbAEA63TFt3oCf4KmdWBfQKt9qEUd0ObAKL/lK7tq9y1ni34kDcqGmez56IENyKAxHwijjUttz6o3my4nARbvqBHIir3GTC+hZgA973EtiC9yXAJryjAP1OlgwfUZ4jpIBdlGWZ5VxLVICx+nneWGLvVDNZ704xfg/oKRkuuQTSsckO/IiB4L4DesQjRjiPBdduMlYqD2xEWkLvAu45oCW+AvMBAcoJwitSpKjyDXjSUrkb+kUcXhuJjglyBYSrfy851gK7WIECytvWb+LYudC2CZBc58SaDwq9F5CYA8CG5HgX6IFPfEBYSaoH3C5/4SevzXmZf7xk1JuCbWAm1Mxb4rBgZQrcJP4kNDeZrrlt2d/cCX/wmD1+GlWUZlLe8Mso1iCoeRask+Yhv4HRiP9uGGFClrg2yGsc0nYh0SJT/KUIPENQquwjLHW6ThlTugT+B7qZw7t3bS6OAAAAAElFTkSuQmCC) 0 0, default;
+    
+}
+
+#door a:hover
+{
+    opacity: 1;
+    
+}
+
+#fb
+{
+    width: 100px;
+}
+
+#git
+{ 
+  height: 100px;  
+}
+
+h2
+{
+    font-family: 'Dancing Script', cursive;   
+    font-size: 2rem;
+    color:  #66BFBF;
+    line-height:1.5;
+    padding-left: 150px;
+}
+
+h3
+{
+    color: #cccccc;
+    font-family: "Arial", Helvetica, sans-serif;
+    padding-left: 100px;
+}
+
+h4
+{
+    color: #006622;
+    font-family: "Nerko One";
+    font-size: 2rem;
+    position: relative;
+    left: 50px;
+
+}
+
+.hobby a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.hobby a:hover
+{
+    color:#00e6b8; 
+}
+
+hr
+{
+    border-top: 5px dotted silver;
+    border-left:0;
+    border-right: 0;
+    border-bottom: 0;
+    width: 5%;
+    position: relative;
+    left: 50px;
+}
+
+#ilona
+{
+    width:200px;
+    height: 200px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 20px;
+}
+
+
+.left-plant
+{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+}
+
+li
+{
+    list-style: none;
+}
+
+.menu
+{
+    list-style-type: none;
+    color:#006622;
+    font-family: 'Sacramento';
+    font-size: 1.7rem;
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu a
+{
+ opacity: 0.9;
+ text-decoration: none;
+ color:#006622;
+}
+
+.menu a:hover
+{
+    color: #00e6b8;
+}
+
+.middle-container
+{
+    margin: 0;
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    font-family: "Unbounded";
+    display: block;
+    min-width: 1500px;
+}
+
+.right-plant
+{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 75%;
+}
+
+.scrollup
+{
+    width: 64px;
+    height: 164px;
+    text-decoration: none;
+    background: url("img/arrow.png") no-repeat 0px 0px;
+    position: fixed;
+    right: 100px;
+    bottom: 150px;
+}
+
+#sescom
+{
+    height: 1rem;
+}
+
+.socials
+{
+    margin: 0;
+    float: left;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    left: 43%;
+}
+
+.socials a
+{
+    opacity: 0.8;
+}
+
+.socials a:hover
+{
+    opacity: 1;
+}
+
+table
+{
+    position: relative;
+    left: 5%;
+}
+
+td, th
+{
+    padding: 5px;
+}
+
+.text
+{
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+    line-height: 2;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+th
+{
+    text-align: center;
+}
+
+.top
+{
+    float: left;
+    height: 700px;
+    width: 500px;
+}
+
+#top-container
+{
+    background-color: #e6fff5;
+    height: 600px;
+    margin: 0;
+    min-width: 1500px;
+    text-align: center;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
